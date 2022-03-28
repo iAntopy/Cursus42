@@ -1,6 +1,6 @@
-FUNC_NAMES_M = isalpha isdigit isalnum isascii isprint strlen memset bzero memcpy memmove strlcpy strlcat toupper tolower strchr strrchr strncmp memchr memcmp strnstr atoi calloc strlcat substr strjoin strtrim split itoa strmapi striteri putchar_fd putstr_fd putendl_fd putnbr_fd
+FUNC_NAMES_M = isalpha isdigit isalnum isascii isprint strlen memset bzero memcpy memmove strlcpy strlcat toupper tolower strchr strrchr strncmp memchr memcmp strnstr atoi calloc strlcat substr strjoin strtrim split itoa strmapi striteri putchar_fd putstr_fd putendl_fd putnbr_fd putchar putstr putnbr strdup
 
-FUNC_NAMES_B = lstnew lstadd_front lstadd_back lstsize lstlast lstdelone lstclear lstiter lstmap
+FUNC_NAMES_B = lstnew lstadd_front lstadd_back lstsize lstlast lstdelone lstclear lstiter lstmap lstcreate lstprint
 
 PREF		= ft_
 SUF_M		= .c

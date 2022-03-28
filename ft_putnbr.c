@@ -2,7 +2,7 @@
 
 static void	rec_putnbr(long long int n)
 {
-	if (n > 10)
+	if (n > 9)
 		rec_putnbr(n / 10);
 	ft_putchar('0' + (n % 10));
 }
